@@ -49,6 +49,9 @@ GPIO.add_event_detect(channel, GPIO.BOTH, bouncetime=300)  # let us know when th
 GPIO.add_event_callback(channel, callback)  # assign function to GPIO PIN, Run function on change
  
 #
+while True:
+    #give the script rest
+        time.sleep(1)
 
 
 
